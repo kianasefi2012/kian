@@ -1,2 +1,2 @@
 # kian
-Iam kian and i know html &amp; css python and some java script
+Iam kian and i know html & css python and some java script
