@@ -1,0 +1,111 @@
+/* Responsive Design */
+
+/* Tablets */
+@media (max-width: 992px) {
+    header nav ul {
+        gap: 10px;
+    }
+    .service-boxes,
+    .portfolio-items,
+    .testimonial-boxes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .service-card,
+    .portfolio-card,
+    .testimonial-card {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .service-card,
+    .portfolio-card,
+    .testimonial-card {
+        width: 100%;
+    }
+    form input,
+    form textarea {
+        width: 100%;
+    }
+}
+/* Responsive Design */
+
+/* Tablets */
+@media (max-width: 992px) {
+    header .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    header nav ul {
+        gap: 15px;
+    }
+    .services .service-boxes,
+    .portfolio-preview .portfolio-items,
+    .portfolio-page .portfolio-items,
+    .testimonials-page .testimonial-boxes {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .service-card,
+    .portfolio-card,
+    .testimonial-card {
+        flex-basis: 45% !important;
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    header nav ul li a {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .services .service-boxes,
+    .portfolio-preview .portfolio-items,
+    .portfolio-page .portfolio-items,
+    .testimonials-page .testimonial-boxes {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .service-card,
+    .portfolio-card,
+    .testimonial-card {
+        flex-basis: 100% !important;
+        margin-bottom: 20px;
+    }
+    .contact-page form {
+        width: 100%;
+    }
+    .contact-page input[type="text"],
+    .contact-page input[type="email"],
+    .contact-page textarea {
+        width: 100%;
+    }
+}
